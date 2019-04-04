@@ -1,0 +1,348 @@
+
+* {
+	 margin:0px 0px 0px 0px;
+	 padding:auto;
+}
+
+
+.logo {
+
+display: block;
+ margin: 0 auto;
+ 
+	
+}
+
+/******************Set the Navigation Bar ********************/
+.nav ul{
+list-style:none;
+text-align:center;
+padding:0;
+margin:0;
+}
+
+.nav li{
+display:inline-block;
+ font-size:16px;
+ padding:5px;
+}
+
+.navbar-default {
+  background-color: #bbe3f3;
+  border-color: #c3edf1;
+}
+
+.navbar-default .navbar-text {
+  color: #656767;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #656767;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #4f8fe2;
+}
+
+
+/* Search Bar*/
+.btn-primary
+{
+
+	background-color:lightblue;
+}
+
+
+
+/*****************Login*******************/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Center the image and position the close button */
+.container {
+    padding: 20px;
+}
+
+
+/* The login Page background color ad size */
+.loginPage {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+/*Login Content*/
+.loginPage-content {
+    background-color: white;
+	width: 100%; /*Mix size of the screen*/
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+  
+}
+
+
+
+/****************** Home Page*******************/
+.section {
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.container-fluid {
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+
+.home-title {
+	text-align: center;
+    margin: auto;
+    width: 60%;
+    border: 3px solid lightblue;
+    padding: 10px;
+}
+	
+/****************** slideshow*******************/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-axnimation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/****************** footer*******************/
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+	background-color:#bbe3f3;
+	text-align: center;
+  font: bold 16px sans-serif;
+}
+
+.footer .company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+/*******************Product Page********************/
+.fixed-margin {
+	 margin:0px 0px 0px 0px;
+	 padding:auto;
+}
+
+/*Price tag-large */
+.pricetag-large{
+    white-space:nowrap;
+    position:relative;
+    margin:0 5px 0 10px;
+    displaY:inline-block;
+    height:29px;
+    border-radius: 0 5px 5px 0;
+    padding: 0 30px 0 20px;
+    background:#E8EDF0;
+    border: 0 solid #C7D2D4;
+    border-top-width:2px;
+    border-bottom-width:1px;
+    color:#999;
+    line-height:23px;
+		font-size:23px;
+}
+
+.pricetag-large:before{
+    position:absolute;
+    content:"\2";
+    text-shadow: 0 0 1px #333;
+    line-height:0px;
+    left:-15px;
+	 border-right:12px solid #E8EDF0;
+    border-top:  13px solid transparent;
+    border-bottom:  13px solid transparent;
+}
+
+/*Price tag-small */
+.pricetag-small{
+    white-space:nowrap;
+    position:relative;
+    margin:0 5px 0 10px;
+    displaY:inline-block;
+    height:20px;
+    border-radius: 0 5px 100px 0;
+    padding: 0 20px 0 15px;
+    background:#E8EDF0;
+    border: 0 solid #C7D2D4;
+    border-top-width:2px;
+    border-bottom-width:1px;
+    color:#999;
+    line-height:20px;
+	font-size:17px;
+	
+}
+
+
+
+.pricetag-small:before{
+    position:absolute;
+    content:"\2";
+    text-shadow: 0 0 1px #333;
+	border-right:9px solid #E8EDF0;
+    border-top:  9px solid transparent;
+    border-bottom:9px solid transparent;
+    line-height:0px;
+    left:-15px;
+}
+
+
+/******************** POPUP Window********************/
+         .product_view .modal-dialog{width: 100%; max-width: 1000px; }
+      .modal-title{color:#3399FF;}
+
+.text-center{
+	  text-align: center;
+}
+/*Section 2 is the Space within pop Video/Img and pop up window */
+.section-2{
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+
+/*Section 3 is the Space within footer and content */
+.section-3{
+	padding-top: 70px;
+}
+
+/*photo-center make the img on popup windows move to center */
+.photo-center{
+	margin-left:30px;
+}
+
+
+
+
+
+/********************About Us page************************/
+  .about-text{
+	  color:lightblue;
+  }
+  
+  .section-4{
+	padding-top: 295px;
+}
+
+/***************Contact*********************************/
+.text-c-style
+{
+	font-family: "Times New Roman", Times, serif;
+	color:#66d9ff;
+}
+
+
+/***************Coming soon*********************************/
